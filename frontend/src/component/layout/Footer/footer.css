@@ -1,0 +1,70 @@
+footer{
+    margin-top:10vmax;
+    padding:2vmax;
+    background-color: rgb(34,33,33);
+    align-items: center;
+    color:white;
+    display: flex;
+}
+
+.leftFooter{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftFooter>h4{
+    text-align: center;
+    font-family: 'Robot';
+    font-size: 1.2vmax;
+}
+ .leftFooter>p{
+    text-align: center;
+    font-family: 'Robot';
+ }
+
+.leftFooter>img{
+    width:10vmax;
+    margin:1vmax;
+    cursor: pointer;
+    align-self: center;
+}
+
+.midFooter{
+    width:60%;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.midFooter>h1{
+    font-family: 'Roboto';
+    color:#eb4304;
+    font-size: 4vmax;
+}
+
+.midFooter>p{
+    width:60%;
+    font-family: 'Roboto';
+    align-self: center;
+}
+
+.rightFooter{
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    text-align: center;
+    gap:1vmax;
+}
+
+.rightFooter>h4{
+    text-decoration: underline;
+    font-size: 1.5vmax;
+    font-family: 'Robot';
+}
+
+.icons:hover{
+    transform: translateY(-0.4vmax);
+}
+
+
